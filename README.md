@@ -110,9 +110,7 @@ If we want to make the first example work so that `handleClick` is called in
 like so:
 
 ```jsx
-function Clickable({ onClick }) {
-  return <button onClick={onClick}>Click Me</button>;
-}
+
 
 function App() {
   function handleClick() {
